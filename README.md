@@ -1,10 +1,15 @@
 Tutorial para rodar o projeto:
 
-1. Abrir o projeto laravel em sua IDE e realizar a importação do banco de dados (peixaria.sql) em seu ambiente de manipulação de banco.
+1. Realizar o clone do projeto em seu htdocs.
 
-2. Habilitar a extension mysqli em php.ini do seu xampp.
+2. Abrir o projeto laravel em sua IDE e realizar a importação do banco de dados (peixaria.sql) em seu ambiente de manipulação de banco.
 
-3. Abrir o projeto laravel em sua IDE e executar o comando php artisan serve.
+3. Abrir o CMD no porjeto laravel e rodar o seguinte comando:
+> composer install
+
+4. Habilitar a extension mysqli em php.ini do seu xampp.
+
+5. Abrir o projeto laravel em sua IDE e executar o comando php artisan serve.
 
 Tutorial para aplicar o CRUD via API.
 

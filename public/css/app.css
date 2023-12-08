@@ -1,0 +1,59 @@
+.botao-editar {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #3498db;
+    color: #3498db; 
+    background-color: #ffffff; 
+    cursor: pointer;
+    border-radius: 4px; 
+    transition: background-color 0.3s ease;
+}
+
+.botao-editar:hover {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.botao-deletar {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #e74c3c; 
+    color: #e74c3c; 
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px; 
+    transition: background-color 0.3s ease; 
+}
+
+.botao-deletar:hover {
+    background-color: #e74c3c; 
+    color: #ffffff; 
+}
+
+.botao-criar {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.botao-criar:hover {
+    background-color: #2ecc71; 
+    color: #ffffff;
+}

@@ -2,9 +2,9 @@ Tutorial para rodar o projeto:
 
 1. Realizar o clone do projeto em seu htdocs.
 
-2. Abrir o projeto laravel em sua IDE e realizar a importação do banco de dados (peixaria.sql) em seu ambiente de manipulação de banco.
+2. Abrir o projeto laravel em sua IDE e realizar a importaÃ§Ã£o do banco de dados (peixaria.sql) em seu ambiente de manipulaÃ§Ã£o de banco.
 
-3. Abrir o CMD no porjeto laravel e rodar o seguinte comando:
+3. Abrir o CMD no projeto laravel e rodar o seguinte comando:
 > composer install
 
 4. Habilitar a extension mysqli em php.ini do seu xampp.
@@ -13,33 +13,33 @@ Tutorial para rodar o projeto:
 
 Tutorial para aplicar o CRUD via API.
 
-1. Abrir sua plataforma de API, de preferência o Postman.
+1. Abrir sua plataforma de API, de preferÃªncia o Postman.
 
 2. Criar uma nova collection
 
-3. Realizar as ações de CRUD:
+3. Realizar as aÃ§Ãµes de CRUD:
 
 > Para realizar o GET no projeto, colocar a URL:
 http://LINK_LOCAL_ATIVO_EM_LARAVEL/api/peixes/X
 
-Substitua o LINK_LOCAL_ATIVO_EM_LARAVEL para o link que está rodando seu projeto.
+Substitua o LINK_LOCAL_ATIVO_EM_LARAVEL para o link que estÃ¡ rodando seu projeto.
 
-Substitua o X pelo ID que você deseja acessar.
+Substitua o X pelo ID que vocÃª deseja acessar.
 
 > Para realizar o POST no projeto, colocar a URL:
 http://127.0.0.1:8000/api/peixes
 
-Inserir o parametro "nome" e no campo valor, você coloca um nome de peixe.
+Inserir o parametro "nome" e no campo valor, vocÃª coloca um nome de peixe.
 
 > Para realizar o PUT no projeto, colocar a URL:
 http://127.0.0.1:8000/api/peixes/X
 
-Substitua o X pelo ID que você deseja acessar.
+Substitua o X pelo ID que vocÃª deseja acessar.
 
-Inserir o parametro "nome" e no campo valor, você coloca o nome que deseja alterar.
+Inserir o parametro "nome" e no campo valor, vocÃª coloca o nome que deseja alterar.
 
 > Para realizar o DELETE no projeto, colocar a URL:
 http://127.0.0.1:8000/api/peixes/X
 
-Substitua o X pelo ID que você deseja deletar.
+Substitua o X pelo ID que vocÃª deseja deletar.
 
